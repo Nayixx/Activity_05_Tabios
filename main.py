@@ -62,6 +62,9 @@ else:
 pixel = 1683001
 
 if pixel > img.size: print("Set pixel: Higher than the pixel count\n")
+
 elif pixel < img.size: print("Set pixel: Lower than the pixel count\n")
 
 else: print("Set pixel: Equal to the pixel count")
+
+print("Image Data Type:", img.dtype)
